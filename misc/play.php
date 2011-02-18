@@ -1,0 +1,3 @@
+<?require "../init.inc";?>
+עû קממבעû?
+<?finish();?>

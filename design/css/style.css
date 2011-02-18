@@ -1,0 +1,50 @@
+/*common*/
+body {font-family:"Lucida Grande", sans-serif;font-size:10pt}
+/*div#cp{position:absolute; right:5px; bottom:5px;font-size:8pt}*/
+div#cp {float:right; margin-right:5px; margin-bottom:5px;font-size:8pt}
+
+a {color:black}
+a:visited {color:#ccc}
+a:hover {background-color:#ccc;color:white}
+
+a.perm {color:black}
+
+/*nabey*/
+.msg {color:red;font-size:10pt}
+.dmsg {color:#0000ff;font-size:10pt}
+.notice {color:#ccc;font-size:10pt}
+.update {color:#FF6666;font-size:10pt}
+
+span.fldn {margin-right:90px;display:inline}
+div.fldline {margin-bottom:5px};
+div.fldline input {width:150px}
+/*screbi*/
+div#cpl {float:left; margin-left:5px; margin-bottom:5px;font-size:8pt}
+div.file {float:left;padding:3px;margin:4px;border:1px solid #606060;width:102px;height:160px;overflow:hidden}
+
+div.file img.pre {font-size:8pt;display:block;color:#666;border:1px}
+div.file div.pre {text-align:center;font-size:7pt;display:block;color:#ccc}
+div.file a.name {font-size:9pt}
+p.attr{font-size:7pt;line-height:8pt;padding:1px;margin:0px}
+
+/*blog*/
+div.entry {padding-left:15px;margin-bottom:20px}
+div.entry div.subject {font-size:9pt;background-color:#ccc;color:black;margin-bottom:5px;padding:3px 5px 3px 5px}
+div.entry div.content {margin-bottom:10px;padding-left:15px}
+div.entry div.tags {padding-left:15px}
+div.entry div.timestamp {padding-left:15px;font-size:8pt}
+div.entry div.sys {text-align:right;color:black;font-size:8pt}
+
+
+div.entry_edit {border:1px solid #ccc;padding:10px}
+div.entry_edit input{width:400px}
+div.entry_edit textarea {width:400px;height:200px}
+div.entry_edit div.subject {margin-bottom:10px}
+div.entry_edit div.content {}
+div.entry_edit div.tags {}
+
+div.comment{padding-left:25px;margin-bottom:20px}
+div.comment div.head{background-color:#8DA6D6;padding-left:2px}
+div.comment div.content{}
+
+div#replyform {border:1px solid black;padding-left:5px;width:500px}
